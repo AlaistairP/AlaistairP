@@ -5,4 +5,4 @@
 - 🔢I love to use Node.js and React.js ( and sometimes vanilla javascript 😃)
 
 ### Join our Discord!
-[<img align="left" alt="https://discord.gg/dnXsqcnsPK" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][Discord]
+[<img align="left" alt="https://discord.gg/dnXsqcnsPK" width="22px" />][Discord]

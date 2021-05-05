@@ -1,7 +1,7 @@
 ### Hi there 👋, I am Alaistair!
 #### I work for The Astro Devs!
 I make loads of cool mini projects for discord! I also develop websites!
-(https://github.com/AlaistairP/AlaistairP/blob/main/space12.jpg)
+![about](https://github.com/AlaistairP/AlaistairP/blob/main/space12.jpg)
 
 Skills:  REACT / JS / HTML / CSS
 

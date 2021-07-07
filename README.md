@@ -8,7 +8,7 @@ Skills:  REACT / JS / HTML / CSS
 - 🔭 I’m currently working on My Website! 
 - 🌱 I’m currently learning Python 
 - 👯 I’m looking to collaborate on A Discord Bot 
-- 📫 How to reach me: Discord: AstroP#6969 
+- 📫 How to reach me: Discord: Mr. Astro#9999
 - ⚡ Fun fact: I love creating android apps! 
 
 

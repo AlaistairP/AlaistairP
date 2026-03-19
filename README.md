@@ -1,41 +1,46 @@
 # Hi, I'm Alaistair Preece 👋
 
-I'm a student based in Ireland with a strong interest in mathematics, software development, and building things that solve real problems. I enjoy applying analytical thinking to both code and real-world scenarios.
+I'm a student based in Ireland with a strong interest in computer science, embedded systems, and building things that solve real problems. I enjoy working across the full stack — from hardware sensors to APIs to automated pipelines.
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Project
 
-### 📐 [Curling Stone Collision — Applied Maths Modelling Project](https://github.com/AlaistairP/curling-project)
-An interactive web application built with React that models the physics of curling stone collisions. Uses frame-by-frame video analysis to estimate the **coefficient of restitution** across three modelling iterations, incorporating vector resolution, rotational kinetic energy, and convertible kinetic energy. All equations are rendered with **KaTeX** (LaTeX in the browser).
+### 🔥 [Wildfire Early Detection System — CS Student Assignment 2026](https://github.com/AlaistairP/Environmental-Project-2026)
 
-> **Live demo:** [alaistairp.github.io/curling-project](https://alaistairp.github.io/curling-project)  
-> **Stack:** React · KaTeX · SVG · GitHub Pages
+A real-time wildfire risk detection system built around a **Raspberry Pi Pico**, a **MacBook**, and a three-tier hardware/software architecture. The system reads live environmental sensor data, models fire spread risk using a formula derived from the **Canadian Wildland Fire Information System**, and automatically fires a **Twilio SMS/phone call alert** when risk reaches a critical threshold — all without any user input once the system is running.
 
----
+> **Stack:** Python · MicroPython · Raspberry Pi Pico · Twilio API · Open-Meteo API · pyserial · NumPy · Shell scripting
 
-### 📅 [Study Timetable](https://github.com/AlaistairP/study-timetable-2)
-A clean, browser-based study timetable built in HTML/CSS for organising Leaving Certificate exam preparation.
-
-> **Stack:** HTML · CSS
-
----
-
-### 📱 [SCInsta (Fork)](https://github.com/AlaistairP/SCInsta)
-A fork of SCInsta — a feature-rich iOS tweak for Instagram built in Objective-C.
-
-> **Stack:** Objective-C · iOS
+**Key features:**
+- 🌡️ Live temperature and soil moisture readings via DHT11 and ADC sensors on the Pico
+- 📡 Historical weather data pulled from the Open-Meteo API, validated against real wildfire events (2020 LNU Lightning Complex fires, 2023 Lahaina fires)
+- 📊 Rate of Spread model based on the Rothermel surface fire spread formula — outputs LOW / MEDIUM / HIGH fire risk per hour
+- 📲 Twilio integration sends an SMS and places a phone call when HIGH risk is detected
+- 🔁 Fully automated pipeline — potentiometer threshold on the Pico triggers the entire MacBook analysis sequence via USB serial and `subprocess`
+- 🔐 API keys managed via environment variables (not hardcoded)
 
 ---
 
 ## 🛠️ Skills & Tools
 
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![MicroPython](https://img.shields.io/badge/-MicroPython-2B2728?style=flat&logo=micropython&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
+
+---
+
+## 📂 Other Projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [curling-project](https://github.com/AlaistairP/curling-project) | Applied Maths modelling project — estimates coefficient of restitution of curling stone collisions via video analysis, with KaTeX-rendered equations and SVG diagrams | React · KaTeX |
+| [study-timetable-2](https://github.com/AlaistairP/study-timetable-2) | Browser-based Leaving Cert study timetable | HTML · CSS |
 
 ---
 

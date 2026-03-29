@@ -46,5 +46,5 @@ A real-time wildfire risk detection system built around a **Raspberry Pi Pico**,
 
 ## 📬 Contact
 
-- Twitter / X: [@AlaistairP](https://twitter.com/AlaistairP)
+- Twitter / X: [@AlaistairP](https://twitter.com/AlaistairPreece)
 - GitHub: [github.com/AlaistairP](https://github.com/AlaistairP)
